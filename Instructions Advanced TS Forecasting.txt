@@ -1,0 +1,29 @@
+Advanced Time Series Forecasting with Deep Learning and Attention Mechanisms
+his project requires students to implement and rigorously test a sophisticated deep learning model-specifically, a Transtormer-based model (or anLSTMCRU
+ugmented with an attention mechanism)—for multi-step time series forecasting. Students wilutlize a complex, rea-world or simulated dataset exnioting
+;easonality, trend, and potential noise. The focus is on optimizing the model architecture, handling time series preprocessing le.g, differencing, scaling, 
+vindowing), and interpreting the attention weights to understand feature importance over time. The goal is to achieve superior forecasting accuracy compared to
+oaseline models (like ARIMA or basic RNNs) and provide a detalled justfication for design choices. This project tests proficiency in deep learning trameworks
+(TensorFlow/PyTorch), advanced data manipulation, and rigorous model evaluation using appropriate metrics like MASE or RMSE on an out-of-sample test set. The final submission must emphasize code quality, comprehensive documentation, and analytical interpretation of the results
+
+
+
+Tasks to Complete
+Acquire or programmatically generate a complex mulitivarate time serles dataset (e.g., using 'sclpy.signal' for realilstic synthetic data generatlon or leveraging a complex dataset from 'statsmodels' like alrllne passengers data, augmented with external regressors).
+Implement robust preprocesslng plpellnes, Including feature englneering (lag
+features, time-based features) and data normallzation/stendardlzatlon sultable for
+deep learning inputs, 
+Develop and traln a deep learning forecasting model incorporatlng an attenton mechanism le.g, a custom Transtormer encoder layer or an attentdon-augmented LSTM). Tune hyperparameters extenslvely,.
+Evaluate the model performance agalnst at least two basellne models (e.g,SARIMA and a standard LSTM). Analyze and vlsuallze the resuting forecasts calculate relevant error metrics (MAE, RMSE, MASE),.
+Analyze the learned attentlon welghts to provlde qualtatlve Inslghits Into which
+time steps or features the model prlortized during predlctlon.
+
+
+Expected Deliverables
+Complete, production-quality Python code implementation for data loading preprocessing, model definition, training, and evaluation scripts.
+A text-based technlcal report detallng the dataset characteristics, model
+architecture cholces (including justiflicatlon for using attention), hyperparameter
+tuning srategles, and comparat've performance analysis against baselines
+Textual output showing the final evaluation metrics (MAE, RMSE, MASE) on the
+holdout test set for all models. 
+A textual descriptlon Interpreting the observed attention patterns from the trained model.
